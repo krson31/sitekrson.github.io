@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+header{
+    background-image: url(home.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+.logo a{
+    color: rgb(142, 151, 129);
+    padding: 0px 20px;
+    border: 1px solid;
+    border-radius: 15px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: black 2px;
+    background-color: rgb(126, 93, 93);
+}
+.logo span{
+    color: rgb(233, 130, 12);
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(233, 130, 12);
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: 1px transparent;
+    border-radius: 15px;
+    
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background: rgb(233, 130, 12);
+    color:white ;
+}
+ul li.active a{
+    background: rgb(233, 130, 12);
+    color:white ;
+}
+.princi{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.h1{
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    
+}
+.h1 h1{
+    color: rgb(126, 93, 93);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 2px rgb(233, 130, 12);
+    transition: 0.3s ease;
+}
+h1 span{ 
+    font-size: 130px;
+    line-height: 160px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 2px rgb(233, 130, 12);
+    color:transparent ;
+    background-image: url(airplane.gif);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: anim 10s linear 2s infinite ;
+}
+.h1 h1 :hover{
+    -webkit-text-stroke: inherit;
+}
+
+@keyframes anim {
+    100% {
+    background-position: 600px;
+    }
+}
